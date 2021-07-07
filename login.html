@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log-In</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .footer{
+            color: rgba(247, 236, 236, 0.288);
+        }
+        body{
+            background-color: #706c73;
+background-image: url("https://www.transparenttextures.com/patterns/bright-squares.png");
+        }
+#pursuelog{
+    font-family: 'Krona One', sans-serif;
+    font-size: 3rem;
+    text-decoration: none;
+    color: #0e4ba5;
+
+}
+.pursue{
+    font-family: 'Krona One', sans-serif;
+    font-size: 1.8rem;
+    text-decoration: none;
+    margin-left: -8%;
+}
+.d-flex{
+    margin-right: 1%;
+    margin-left: 1%;
+    width: 50%;
+    border-radius: 60px;
+margin-top: -1px;
+}
+.form-control{
+    margin-bottom: 10px;
+}
+.log-in{
+  list-style: none;
+color:#0d6efd; 
+border-bottom: none;
+text-decoration: none;
+    font-size: 18px;
+    margin-right: -9%;
+    font-weight: bold;
+}
+.sign-up{
+  list-style: none;
+  color: black;
+  font-size: 18px;
+padding: 0px 12px 0px 12px;
+  border-radius: 68px;
+  border-color: white;
+}
+.sign-up:hover{
+  color: #0d6efd;
+}
+.foot{
+  font-size: 2.3rem;
+  color: black;
+  margin-left: 2%;
+}
+.search-btn{
+  margin-left: 5px;
+    padding: 1px 9px 1px 9px;
+    border-radius: 18px;
+}
+.navbar{
+    background-color: rgba(0, 0, 0, 0.274);}
+.boot{
+  font-size: 2.3rem;
+  color: black;
+  margin-left: 2%;
+  background-color: steelblue
+}
+
+.div{
+    margin-top: 5%;
+    margin-left: 3%;
+}
+form {
+    text-align: center;
+    width: 30%;
+    align-items: block;
+    margin-top: 0em;
+    align-items: center;
+    justify-content: center;
+    margin-left: 38%;
+    margin-top: 27px;
+}
+#floatingPassword{
+    margin-bottom: 2px;
+}
+.search{
+    margin-top: -10px;
+}
+    </style>
+</head>
+<nav class="navbar navbar-expand-lg navbar-light bg-light,nav,bg-transparent ">
+    <div class="container-fluid">
+      <ion-icon class="foot" name="footsteps-sharp"></ion-icon>
+      <a class="navbar-brand, pursue" href="#">Pursue</a>
+    
+    
+        <form class="d-flex">
+           
+          <input class="form-control me-2,search"  type="search" placeholder="Search or find Here" aria-label="Search">
+          <button class="search-btn" type="submit"> <ion-icon name="search-outline"></ion-icon></button>
+        </form>
+        <li class="log-in" role="menuitem" aria-label="Sign In">
+          <a  class="log-in" href="/signin">Log-In</a>
+        </li>
+        <li class="sign-up" role="menuitem" aria-label="Sign Up">
+          <button class="sign-up">Sign-Up</button>
+        </li>
+      </div>
+    </div>
+  </nav>
+<div class="div">
+<ion-icon class="boot" name="footsteps-sharp"></ion-icon>
+<a class="navbar-brand, " href="#" id="pursuelog">Pursue</a></div>
+<body class="text-center">
+    <main class="form-signin">
+      <form>
+      
+        <h1 class="h3 mb-3 fw-normal">Please sign in</h1>
+    
+        <div class="form-floating">
+          <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+          <label for="floatingInput">Email address</label>
+        </div>
+        <div class="form-floating">
+          <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+          <label for="floatingPassword">Password</label>
+        </div>
+    
+        <div class="checkbox mb-3">
+          <label>
+            <input type="checkbox" value="remember-me"> Remember me
+          </label>
+        </div>
+        <button class="w-100 btn btn-lg btn-primary" type="submit">Sign in</button>
+        <p class="mt-5 mb-3 text-muted,footer">© 2017–2021</p>
+      </form>
+    </main>
+    
+    
+        
+      
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons
+    </body>
+</html>
